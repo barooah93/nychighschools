@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		D19D50D82069B614003F75AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50D72069B614003F75AB /* AppDelegate.swift */; };
-		D19D50DA2069B614003F75AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50D92069B614003F75AB /* ViewController.swift */; };
+		D19D50DA2069B614003F75AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50D92069B614003F75AB /* MainViewController.swift */; };
 		D19D50DD2069B614003F75AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D50DB2069B614003F75AB /* Main.storyboard */; };
 		D19D50DF2069B614003F75AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19D50DE2069B614003F75AB /* Assets.xcassets */; };
 		D19D50E22069B614003F75AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D50E02069B614003F75AB /* LaunchScreen.storyboard */; };
+		D19D50F02069BA85003F75AB /* HighSchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50EF2069BA85003F75AB /* HighSchoolTableViewCell.swift */; };
+		D19D50F22069BB7E003F75AB /* HighSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50F12069BB7E003F75AB /* HighSchool.swift */; };
+		D19D50F42069BC08003F75AB /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50F32069BC08003F75AB /* ServiceResponse.swift */; };
+		D19D50F82069BDAA003F75AB /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50F72069BDAA003F75AB /* URLConstants.swift */; };
+		D19D50FA2069C22C003F75AB /* HighSchoolService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50F92069C22C003F75AB /* HighSchoolService.swift */; };
+		D19D50FC2069C62F003F75AB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50FB2069C62F003F75AB /* BaseViewController.swift */; };
+		D19D50FF2069CD2F003F75AB /* SearchUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D50FE2069CD2F003F75AB /* SearchUtilities.swift */; };
+		D19D51012069DE89003F75AB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D51002069DE89003F75AB /* DetailsViewController.swift */; };
+		D19D5103206B167F003F75AB /* SATScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D5102206B167F003F75AB /* SATScores.swift */; };
+		D19D5105206B177E003F75AB /* SATScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D5104206B177E003F75AB /* SATScoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D19D50D42069B614003F75AB /* 20180326-BrandonBarooah-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20180326-BrandonBarooah-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19D50D72069B614003F75AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D19D50D92069B614003F75AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D19D50D92069B614003F75AB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D19D50DC2069B614003F75AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D19D50DE2069B614003F75AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19D50E12069B614003F75AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19D50E32069B614003F75AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19D50EF2069BA85003F75AB /* HighSchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolTableViewCell.swift; sourceTree = "<group>"; };
+		D19D50F12069BB7E003F75AB /* HighSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchool.swift; sourceTree = "<group>"; };
+		D19D50F32069BC08003F75AB /* ServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
+		D19D50F72069BDAA003F75AB /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		D19D50F92069C22C003F75AB /* HighSchoolService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolService.swift; sourceTree = "<group>"; };
+		D19D50FB2069C62F003F75AB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D19D50FE2069CD2F003F75AB /* SearchUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUtilities.swift; sourceTree = "<group>"; };
+		D19D51002069DE89003F75AB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D19D5102206B167F003F75AB /* SATScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScores.swift; sourceTree = "<group>"; };
+		D19D5104206B177E003F75AB /* SATScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,72 @@
 		D19D50D62069B614003F75AB /* 20180326-BrandonBarooah-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				D19D50EC2069B6CB003F75AB /* Constants */,
+				D19D50EB2069B6C6003F75AB /* Services */,
+				D19D50EA2069B6C1003F75AB /* Models */,
+				D19D50FD2069CD17003F75AB /* Utilities */,
+				D19D50EE2069BA5E003F75AB /* Views */,
+				D19D50E92069B6B4003F75AB /* ViewControllers */,
 				D19D50D72069B614003F75AB /* AppDelegate.swift */,
-				D19D50D92069B614003F75AB /* ViewController.swift */,
 				D19D50DB2069B614003F75AB /* Main.storyboard */,
 				D19D50DE2069B614003F75AB /* Assets.xcassets */,
 				D19D50E02069B614003F75AB /* LaunchScreen.storyboard */,
 				D19D50E32069B614003F75AB /* Info.plist */,
 			);
 			path = "20180326-BrandonBarooah-NYCSchools";
+			sourceTree = "<group>";
+		};
+		D19D50E92069B6B4003F75AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D19D50D92069B614003F75AB /* MainViewController.swift */,
+				D19D50FB2069C62F003F75AB /* BaseViewController.swift */,
+				D19D51002069DE89003F75AB /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D19D50EA2069B6C1003F75AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D19D50F32069BC08003F75AB /* ServiceResponse.swift */,
+				D19D50F12069BB7E003F75AB /* HighSchool.swift */,
+				D19D5102206B167F003F75AB /* SATScores.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D19D50EB2069B6C6003F75AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D19D50F92069C22C003F75AB /* HighSchoolService.swift */,
+				D19D5104206B177E003F75AB /* SATScoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D19D50EC2069B6CB003F75AB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D19D50F72069BDAA003F75AB /* URLConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D19D50EE2069BA5E003F75AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D19D50EF2069BA85003F75AB /* HighSchoolTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D19D50FD2069CD17003F75AB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D19D50FE2069CD2F003F75AB /* SearchUtilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +214,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19D50DA2069B614003F75AB /* ViewController.swift in Sources */,
+				D19D50F02069BA85003F75AB /* HighSchoolTableViewCell.swift in Sources */,
+				D19D50DA2069B614003F75AB /* MainViewController.swift in Sources */,
+				D19D50FF2069CD2F003F75AB /* SearchUtilities.swift in Sources */,
 				D19D50D82069B614003F75AB /* AppDelegate.swift in Sources */,
+				D19D50FA2069C22C003F75AB /* HighSchoolService.swift in Sources */,
+				D19D50F82069BDAA003F75AB /* URLConstants.swift in Sources */,
+				D19D50FC2069C62F003F75AB /* BaseViewController.swift in Sources */,
+				D19D50F42069BC08003F75AB /* ServiceResponse.swift in Sources */,
+				D19D50F22069BB7E003F75AB /* HighSchool.swift in Sources */,
+				D19D5105206B177E003F75AB /* SATScoreService.swift in Sources */,
+				D19D5103206B167F003F75AB /* SATScores.swift in Sources */,
+				D19D51012069DE89003F75AB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ARV772TN;
 				INFOPLIST_FILE = "20180326-BrandonBarooah-NYCSchools/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brandon.-0180326-BrandonBarooah-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ARV772TN;
 				INFOPLIST_FILE = "20180326-BrandonBarooah-NYCSchools/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brandon.-0180326-BrandonBarooah-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
